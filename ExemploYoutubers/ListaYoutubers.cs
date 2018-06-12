@@ -64,7 +64,7 @@ namespace ExemploYoutubers
         {
             if (dataGridView1.CurrentRow == null)
             {
-                MessageBox.Show("Selecione um dos registros para que seja possível apagar");
+                MessageBox.Show("Selecio ne um dos registros para que seja possível apagar");
                 return;
             }
 
