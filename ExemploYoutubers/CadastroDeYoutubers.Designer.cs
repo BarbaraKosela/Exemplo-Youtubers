@@ -50,27 +50,27 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
-            this.radioButton6 = new System.Windows.Forms.RadioButton();
+            this.txtNome = new System.Windows.Forms.TextBox();
+            this.txtSobrenome = new System.Windows.Forms.TextBox();
+            this.txtApelido = new System.Windows.Forms.TextBox();
+            this.txtNomeCanal = new System.Windows.Forms.TextBox();
+            this.txtQuantidadeInscritos = new System.Windows.Forms.TextBox();
+            this.txtVisualizacoes = new System.Windows.Forms.TextBox();
+            this.txtQuantidadeLikes = new System.Windows.Forms.TextBox();
+            this.txtDescricao = new System.Windows.Forms.TextBox();
+            this.txtRenda = new System.Windows.Forms.TextBox();
+            this.txtLinkCanal = new System.Windows.Forms.TextBox();
+            this.txtNacionalidade = new System.Windows.Forms.TextBox();
+            this.txtQuantidadeVideos = new System.Windows.Forms.TextBox();
+            this.txtCategoria = new System.Windows.Forms.TextBox();
+            this.txtStrikes = new System.Windows.Forms.TextBox();
+            this.txtPlataforma = new System.Windows.Forms.TextBox();
+            this.rbSim = new System.Windows.Forms.RadioButton();
+            this.rbNao = new System.Windows.Forms.RadioButton();
+            this.rbNao3 = new System.Windows.Forms.RadioButton();
+            this.rbSim2 = new System.Windows.Forms.RadioButton();
+            this.rbNao5 = new System.Windows.Forms.RadioButton();
+            this.rbSim3 = new System.Windows.Forms.RadioButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -161,9 +161,9 @@
             this.label13.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label13.Location = new System.Drawing.Point(423, 248);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(249, 22);
+            this.label13.Size = new System.Drawing.Size(236, 22);
             this.label13.TabIndex = 34;
-            this.label13.Text = "SUA NASCIONALIDADE:";
+            this.label13.Text = "SUA NACIONALIDADE:";
             // 
             // label12
             // 
@@ -353,193 +353,193 @@
             this.label20.TabIndex = 41;
             this.label20.Text = "É STREAMER?";
             // 
-            // textBox1
+            // txtNome
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 154);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(218, 20);
-            this.textBox1.TabIndex = 42;
+            this.txtNome.Location = new System.Drawing.Point(12, 154);
+            this.txtNome.Name = "txtNome";
+            this.txtNome.Size = new System.Drawing.Size(218, 20);
+            this.txtNome.TabIndex = 42;
             // 
-            // textBox2
+            // txtSobrenome
             // 
-            this.textBox2.Location = new System.Drawing.Point(12, 214);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(303, 20);
-            this.textBox2.TabIndex = 43;
+            this.txtSobrenome.Location = new System.Drawing.Point(12, 214);
+            this.txtSobrenome.Name = "txtSobrenome";
+            this.txtSobrenome.Size = new System.Drawing.Size(303, 20);
+            this.txtSobrenome.TabIndex = 43;
             // 
-            // textBox3
+            // txtApelido
             // 
-            this.textBox3.Location = new System.Drawing.Point(12, 273);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(191, 20);
-            this.textBox3.TabIndex = 44;
+            this.txtApelido.Location = new System.Drawing.Point(12, 273);
+            this.txtApelido.Name = "txtApelido";
+            this.txtApelido.Size = new System.Drawing.Size(191, 20);
+            this.txtApelido.TabIndex = 44;
             // 
-            // textBox4
+            // txtNomeCanal
             // 
-            this.textBox4.Location = new System.Drawing.Point(12, 332);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(303, 20);
-            this.textBox4.TabIndex = 45;
+            this.txtNomeCanal.Location = new System.Drawing.Point(12, 332);
+            this.txtNomeCanal.Name = "txtNomeCanal";
+            this.txtNomeCanal.Size = new System.Drawing.Size(303, 20);
+            this.txtNomeCanal.TabIndex = 45;
             // 
-            // textBox5
+            // txtQuantidadeInscritos
             // 
-            this.textBox5.Location = new System.Drawing.Point(12, 399);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(106, 20);
-            this.textBox5.TabIndex = 46;
+            this.txtQuantidadeInscritos.Location = new System.Drawing.Point(12, 399);
+            this.txtQuantidadeInscritos.Name = "txtQuantidadeInscritos";
+            this.txtQuantidadeInscritos.Size = new System.Drawing.Size(106, 20);
+            this.txtQuantidadeInscritos.TabIndex = 46;
             // 
-            // textBox6
+            // txtVisualizacoes
             // 
-            this.textBox6.Location = new System.Drawing.Point(12, 469);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(106, 20);
-            this.textBox6.TabIndex = 47;
+            this.txtVisualizacoes.Location = new System.Drawing.Point(12, 469);
+            this.txtVisualizacoes.Name = "txtVisualizacoes";
+            this.txtVisualizacoes.Size = new System.Drawing.Size(106, 20);
+            this.txtVisualizacoes.TabIndex = 47;
             // 
-            // textBox7
+            // txtQuantidadeLikes
             // 
-            this.textBox7.Location = new System.Drawing.Point(12, 540);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(106, 20);
-            this.textBox7.TabIndex = 48;
+            this.txtQuantidadeLikes.Location = new System.Drawing.Point(12, 540);
+            this.txtQuantidadeLikes.Name = "txtQuantidadeLikes";
+            this.txtQuantidadeLikes.Size = new System.Drawing.Size(106, 20);
+            this.txtQuantidadeLikes.TabIndex = 48;
             // 
-            // textBox8
+            // txtDescricao
             // 
-            this.textBox8.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtDescricao.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox8.Location = new System.Drawing.Point(427, 469);
-            this.textBox8.Multiline = true;
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(232, 40);
-            this.textBox8.TabIndex = 49;
+            this.txtDescricao.Location = new System.Drawing.Point(427, 469);
+            this.txtDescricao.Multiline = true;
+            this.txtDescricao.Name = "txtDescricao";
+            this.txtDescricao.Size = new System.Drawing.Size(232, 40);
+            this.txtDescricao.TabIndex = 49;
             // 
-            // textBox9
+            // txtRenda
             // 
-            this.textBox9.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtRenda.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox9.Location = new System.Drawing.Point(427, 154);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(106, 20);
-            this.textBox9.TabIndex = 50;
+            this.txtRenda.Location = new System.Drawing.Point(427, 154);
+            this.txtRenda.Name = "txtRenda";
+            this.txtRenda.Size = new System.Drawing.Size(106, 20);
+            this.txtRenda.TabIndex = 50;
             // 
-            // textBox10
+            // txtLinkCanal
             // 
-            this.textBox10.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtLinkCanal.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox10.Location = new System.Drawing.Point(427, 214);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(303, 20);
-            this.textBox10.TabIndex = 51;
+            this.txtLinkCanal.Location = new System.Drawing.Point(427, 214);
+            this.txtLinkCanal.Name = "txtLinkCanal";
+            this.txtLinkCanal.Size = new System.Drawing.Size(303, 20);
+            this.txtLinkCanal.TabIndex = 51;
             // 
-            // textBox11
+            // txtNacionalidade
             // 
-            this.textBox11.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtNacionalidade.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox11.Location = new System.Drawing.Point(427, 273);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(303, 20);
-            this.textBox11.TabIndex = 52;
+            this.txtNacionalidade.Location = new System.Drawing.Point(427, 273);
+            this.txtNacionalidade.Name = "txtNacionalidade";
+            this.txtNacionalidade.Size = new System.Drawing.Size(303, 20);
+            this.txtNacionalidade.TabIndex = 52;
             // 
-            // textBox12
+            // txtQuantidadeVideos
             // 
-            this.textBox12.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtQuantidadeVideos.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox12.Location = new System.Drawing.Point(427, 332);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(106, 20);
-            this.textBox12.TabIndex = 53;
+            this.txtQuantidadeVideos.Location = new System.Drawing.Point(427, 332);
+            this.txtQuantidadeVideos.Name = "txtQuantidadeVideos";
+            this.txtQuantidadeVideos.Size = new System.Drawing.Size(106, 20);
+            this.txtQuantidadeVideos.TabIndex = 53;
             // 
-            // textBox13
+            // txtCategoria
             // 
-            this.textBox13.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtCategoria.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox13.Location = new System.Drawing.Point(427, 399);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(266, 20);
-            this.textBox13.TabIndex = 54;
+            this.txtCategoria.Location = new System.Drawing.Point(427, 399);
+            this.txtCategoria.Name = "txtCategoria";
+            this.txtCategoria.Size = new System.Drawing.Size(266, 20);
+            this.txtCategoria.TabIndex = 54;
             // 
-            // textBox14
+            // txtStrikes
             // 
-            this.textBox14.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtStrikes.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox14.Location = new System.Drawing.Point(427, 577);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(106, 20);
-            this.textBox14.TabIndex = 55;
+            this.txtStrikes.Location = new System.Drawing.Point(427, 577);
+            this.txtStrikes.Name = "txtStrikes";
+            this.txtStrikes.Size = new System.Drawing.Size(106, 20);
+            this.txtStrikes.TabIndex = 55;
             // 
-            // textBox15
+            // txtPlataforma
             // 
-            this.textBox15.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtPlataforma.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox15.Location = new System.Drawing.Point(427, 643);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(239, 20);
-            this.textBox15.TabIndex = 56;
+            this.txtPlataforma.Location = new System.Drawing.Point(427, 643);
+            this.txtPlataforma.Name = "txtPlataforma";
+            this.txtPlataforma.Size = new System.Drawing.Size(239, 20);
+            this.txtPlataforma.TabIndex = 56;
             // 
-            // radioButton1
+            // rbSim
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(8, 8);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(44, 17);
-            this.radioButton1.TabIndex = 57;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "SIM";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rbSim.AutoSize = true;
+            this.rbSim.Location = new System.Drawing.Point(8, 8);
+            this.rbSim.Name = "rbSim";
+            this.rbSim.Size = new System.Drawing.Size(44, 17);
+            this.rbSim.TabIndex = 57;
+            this.rbSim.TabStop = true;
+            this.rbSim.Text = "SIM";
+            this.rbSim.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // rbNao
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(110, 8);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(48, 17);
-            this.radioButton2.TabIndex = 58;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "NÃO";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.rbNao.AutoSize = true;
+            this.rbNao.Location = new System.Drawing.Point(110, 8);
+            this.rbNao.Name = "rbNao";
+            this.rbNao.Size = new System.Drawing.Size(48, 17);
+            this.rbNao.TabIndex = 58;
+            this.rbNao.TabStop = true;
+            this.rbNao.Text = "NÃO";
+            this.rbNao.UseVisualStyleBackColor = true;
             // 
-            // radioButton3
+            // rbNao3
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(108, 5);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(48, 17);
-            this.radioButton3.TabIndex = 60;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "NÃO";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.rbNao3.AutoSize = true;
+            this.rbNao3.Location = new System.Drawing.Point(108, 5);
+            this.rbNao3.Name = "rbNao3";
+            this.rbNao3.Size = new System.Drawing.Size(48, 17);
+            this.rbNao3.TabIndex = 60;
+            this.rbNao3.TabStop = true;
+            this.rbNao3.Text = "NÃO";
+            this.rbNao3.UseVisualStyleBackColor = true;
             // 
-            // radioButton4
+            // rbSim2
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(6, 5);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(44, 17);
-            this.radioButton4.TabIndex = 59;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "SIM";
-            this.radioButton4.UseVisualStyleBackColor = true;
+            this.rbSim2.AutoSize = true;
+            this.rbSim2.Location = new System.Drawing.Point(6, 5);
+            this.rbSim2.Name = "rbSim2";
+            this.rbSim2.Size = new System.Drawing.Size(44, 17);
+            this.rbSim2.TabIndex = 59;
+            this.rbSim2.TabStop = true;
+            this.rbSim2.Text = "SIM";
+            this.rbSim2.UseVisualStyleBackColor = true;
             // 
-            // radioButton5
+            // rbNao5
             // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Location = new System.Drawing.Point(106, 2);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(48, 17);
-            this.radioButton5.TabIndex = 62;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "NÃO";
-            this.radioButton5.UseVisualStyleBackColor = true;
+            this.rbNao5.AutoSize = true;
+            this.rbNao5.Location = new System.Drawing.Point(106, 2);
+            this.rbNao5.Name = "rbNao5";
+            this.rbNao5.Size = new System.Drawing.Size(48, 17);
+            this.rbNao5.TabIndex = 62;
+            this.rbNao5.TabStop = true;
+            this.rbNao5.Text = "NÃO";
+            this.rbNao5.UseVisualStyleBackColor = true;
             // 
-            // radioButton6
+            // rbSim3
             // 
-            this.radioButton6.AutoSize = true;
-            this.radioButton6.Location = new System.Drawing.Point(4, 2);
-            this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(44, 17);
-            this.radioButton6.TabIndex = 61;
-            this.radioButton6.TabStop = true;
-            this.radioButton6.Text = "SIM";
-            this.radioButton6.UseVisualStyleBackColor = true;
+            this.rbSim3.AutoSize = true;
+            this.rbSim3.Location = new System.Drawing.Point(4, 2);
+            this.rbSim3.Name = "rbSim3";
+            this.rbSim3.Size = new System.Drawing.Size(44, 17);
+            this.rbSim3.TabIndex = 61;
+            this.rbSim3.TabStop = true;
+            this.rbSim3.Text = "SIM";
+            this.rbSim3.UseVisualStyleBackColor = true;
             // 
             // pictureBox1
             // 
@@ -564,12 +564,13 @@
             this.button1.TabIndex = 64;
             this.button1.Text = "SALVAR";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox3
             // 
             this.pictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(650, 674);
+            this.pictureBox3.Location = new System.Drawing.Point(651, 686);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(170, 101);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -578,8 +579,8 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.radioButton5);
-            this.groupBox1.Controls.Add(this.radioButton6);
+            this.groupBox1.Controls.Add(this.rbNao5);
+            this.groupBox1.Controls.Add(this.rbSim3);
             this.groupBox1.Location = new System.Drawing.Point(11, 761);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(154, 25);
@@ -588,8 +589,8 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.radioButton2);
-            this.groupBox2.Controls.Add(this.radioButton1);
+            this.groupBox2.Controls.Add(this.rbNao);
+            this.groupBox2.Controls.Add(this.rbSim);
             this.groupBox2.Location = new System.Drawing.Point(7, 622);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(176, 40);
@@ -598,8 +599,8 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.radioButton3);
-            this.groupBox3.Controls.Add(this.radioButton4);
+            this.groupBox3.Controls.Add(this.rbNao3);
+            this.groupBox3.Controls.Add(this.rbSim2);
             this.groupBox3.Location = new System.Drawing.Point(10, 694);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(172, 38);
@@ -619,21 +620,21 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.textBox15);
-            this.Controls.Add(this.textBox14);
-            this.Controls.Add(this.textBox13);
-            this.Controls.Add(this.textBox12);
-            this.Controls.Add(this.textBox11);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtPlataforma);
+            this.Controls.Add(this.txtStrikes);
+            this.Controls.Add(this.txtCategoria);
+            this.Controls.Add(this.txtQuantidadeVideos);
+            this.Controls.Add(this.txtNacionalidade);
+            this.Controls.Add(this.txtLinkCanal);
+            this.Controls.Add(this.txtRenda);
+            this.Controls.Add(this.txtDescricao);
+            this.Controls.Add(this.txtQuantidadeLikes);
+            this.Controls.Add(this.txtVisualizacoes);
+            this.Controls.Add(this.txtQuantidadeInscritos);
+            this.Controls.Add(this.txtNomeCanal);
+            this.Controls.Add(this.txtApelido);
+            this.Controls.Add(this.txtSobrenome);
+            this.Controls.Add(this.txtNome);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.label18);
@@ -699,27 +700,27 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.RadioButton radioButton5;
-        private System.Windows.Forms.RadioButton radioButton6;
+        private System.Windows.Forms.TextBox txtNome;
+        private System.Windows.Forms.TextBox txtSobrenome;
+        private System.Windows.Forms.TextBox txtApelido;
+        private System.Windows.Forms.TextBox txtNomeCanal;
+        private System.Windows.Forms.TextBox txtQuantidadeInscritos;
+        private System.Windows.Forms.TextBox txtVisualizacoes;
+        private System.Windows.Forms.TextBox txtQuantidadeLikes;
+        private System.Windows.Forms.TextBox txtDescricao;
+        private System.Windows.Forms.TextBox txtRenda;
+        private System.Windows.Forms.TextBox txtLinkCanal;
+        private System.Windows.Forms.TextBox txtNacionalidade;
+        private System.Windows.Forms.TextBox txtQuantidadeVideos;
+        private System.Windows.Forms.TextBox txtCategoria;
+        private System.Windows.Forms.TextBox txtStrikes;
+        private System.Windows.Forms.TextBox txtPlataforma;
+        private System.Windows.Forms.RadioButton rbSim;
+        private System.Windows.Forms.RadioButton rbNao;
+        private System.Windows.Forms.RadioButton rbNao3;
+        private System.Windows.Forms.RadioButton rbSim2;
+        private System.Windows.Forms.RadioButton rbNao5;
+        private System.Windows.Forms.RadioButton rbSim3;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox3;

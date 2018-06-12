@@ -8,7 +8,8 @@ namespace Modelo
 {
     public class Youtubers
     {
-
+        private static int UltimoCodigo;
+        private int Codigo;
         private string Nome;
         private string Sobrenome;
         private string Apelido;
@@ -27,7 +28,20 @@ namespace Modelo
         private int Strike;
         private string Plataforma;
         private bool Streamer;
+        
 
+
+        public Youtubers()
+        {
+            Codigo = ++UltimoCodigo;
+        }
+
+        public int GetCodigo()
+        {
+            return Codigo;
+        }
+
+        
 
         public void SetNome(string nome)
         {
@@ -408,5 +422,7 @@ namespace Modelo
         }
 
 
+
+        
     }
 }

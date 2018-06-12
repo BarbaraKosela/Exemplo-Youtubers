@@ -16,3 +16,6 @@ C:\Users\104962\Documents\GitHub\ExemploYoutubers\Exemplo-Youtubers\ExemploYoutu
 C:\Users\104962\Documents\GitHub\ExemploYoutubers\Exemplo-Youtubers\ExemploYoutubers\obj\Debug\ExemploYoutubers.CadastroDeYoutubers.resources
 C:\Users\104962\Documents\GitHub\ExemploYoutubers\Exemplo-Youtubers\ExemploYoutubers\obj\Debug\ExemploYoutubers.Properties.Resources.resources
 C:\Users\104962\Documents\GitHub\ExemploYoutubers\Exemplo-Youtubers\ExemploYoutubers\obj\Debug\WFA.csproj.GenerateResource.Cache
+C:\Users\104962\Documents\GitHub\ExemploYoutubers\Exemplo-Youtubers\ExemploYoutubers\bin\Debug\Modelo.dll
+C:\Users\104962\Documents\GitHub\ExemploYoutubers\Exemplo-Youtubers\ExemploYoutubers\bin\Debug\Modelo.pdb
+C:\Users\104962\Documents\GitHub\ExemploYoutubers\Exemplo-Youtubers\ExemploYoutubers\obj\Debug\ExemploYoutubers.ListaYoutubers.resources
