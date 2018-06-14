@@ -62,7 +62,6 @@
             this.txtLinkCanal = new System.Windows.Forms.TextBox();
             this.txtNacionalidade = new System.Windows.Forms.TextBox();
             this.txtQuantidadeVideos = new System.Windows.Forms.TextBox();
-            this.txtCategoria = new System.Windows.Forms.TextBox();
             this.txtStrikes = new System.Windows.Forms.TextBox();
             this.txtPlataforma = new System.Windows.Forms.TextBox();
             this.rbSim = new System.Windows.Forms.RadioButton();
@@ -77,6 +76,7 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.button2 = new System.Windows.Forms.Button();
+            this.txtCategoria = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -448,6 +448,7 @@
             this.txtLinkCanal.Name = "txtLinkCanal";
             this.txtLinkCanal.Size = new System.Drawing.Size(303, 20);
             this.txtLinkCanal.TabIndex = 16;
+            this.txtLinkCanal.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtLinkCanal_KeyDown);
             // 
             // txtNacionalidade
             // 
@@ -470,17 +471,6 @@
             this.txtQuantidadeVideos.Name = "txtQuantidadeVideos";
             this.txtQuantidadeVideos.Size = new System.Drawing.Size(106, 20);
             this.txtQuantidadeVideos.TabIndex = 19;
-            // 
-            // txtCategoria
-            // 
-            this.txtCategoria.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtCategoria.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.txtCategoria.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.txtCategoria.Location = new System.Drawing.Point(427, 399);
-            this.txtCategoria.Name = "txtCategoria";
-            this.txtCategoria.Size = new System.Drawing.Size(266, 20);
-            this.txtCategoria.TabIndex = 20;
             // 
             // txtStrikes
             // 
@@ -639,6 +629,17 @@
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // txtCategoria
+            // 
+            this.txtCategoria.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtCategoria.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.txtCategoria.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.txtCategoria.Location = new System.Drawing.Point(427, 399);
+            this.txtCategoria.Name = "txtCategoria";
+            this.txtCategoria.Size = new System.Drawing.Size(266, 20);
+            this.txtCategoria.TabIndex = 20;
+            // 
             // CadastroDeYoutubers
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -694,7 +695,7 @@
             this.Name = "CadastroDeYoutubers";
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "CADASTRE-SE YOUTUBER!";
+            this.Text = "0";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -744,7 +745,6 @@
         private System.Windows.Forms.TextBox txtLinkCanal;
         private System.Windows.Forms.TextBox txtNacionalidade;
         private System.Windows.Forms.TextBox txtQuantidadeVideos;
-        private System.Windows.Forms.TextBox txtCategoria;
         private System.Windows.Forms.TextBox txtStrikes;
         private System.Windows.Forms.TextBox txtPlataforma;
         private System.Windows.Forms.RadioButton rbSim;
@@ -759,6 +759,7 @@
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox txtCategoria;
     }
 }
 

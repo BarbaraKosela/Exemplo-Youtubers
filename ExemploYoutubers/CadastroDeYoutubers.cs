@@ -123,6 +123,20 @@ namespace ExemploYoutubers
         {
             Dispose();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtLinkCanal_KeyDown(object sender, KeyEventArgs e)
+        {
+            string link = "http://" + txtLinkCanal.Text + ".com";
+            if (e.KeyCode == Keys.Enter)
+            {
+                System.Diagnostics.Process.Start(link);
+            }
+        }
         }
 
         
