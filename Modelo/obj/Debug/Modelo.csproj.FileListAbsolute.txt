@@ -2,3 +2,4 @@ C:\Users\104962\Documents\GitHub\ExemploYoutubers\Exemplo-Youtubers\Modelo\bin\D
 C:\Users\104962\Documents\GitHub\ExemploYoutubers\Exemplo-Youtubers\Modelo\bin\Debug\Modelo.pdb
 C:\Users\104962\Documents\GitHub\ExemploYoutubers\Exemplo-Youtubers\Modelo\obj\Debug\Modelo.dll
 C:\Users\104962\Documents\GitHub\ExemploYoutubers\Exemplo-Youtubers\Modelo\obj\Debug\Modelo.pdb
+C:\Users\104962\Documents\GitHub\ExemploYoutubers\Exemplo-Youtubers\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache

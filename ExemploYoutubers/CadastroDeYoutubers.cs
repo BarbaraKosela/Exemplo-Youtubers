@@ -14,16 +14,17 @@ namespace ExemploYoutubers
     public partial class CadastroDeYoutubers : Form
     {
         private Youtubers youtuber;
-        private int codigo;
-        public CadastroDeYoutubers(int codigo)
+        private string codigo;
+        public CadastroDeYoutubers()
         {
             InitializeComponent();
             this.youtuber = youtuber;
         }
 
-        public CadastroDeYoutubers()
+        public CadastroDeYoutubers(string codigo)
         {
             InitializeComponent();
+            this.codigo = codigo;
             for (int i = 0; i < Program.youtuber.Count(); i++)
             {
                 Youtubers youtuber = Program.youtuber[i];
@@ -106,6 +107,7 @@ namespace ExemploYoutubers
             {
                 MessageBox.Show(ex.Message);
             }
+        }
             
 
                 
@@ -115,7 +117,12 @@ namespace ExemploYoutubers
                 
 
 
-            }
+            
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Dispose();
+        }
         }
 
         

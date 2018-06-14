@@ -51,7 +51,7 @@ namespace ExemploYoutubers
                 return;
             }
 
-            int codigo = Convert.ToInt32(dataGridView1.Rows[dataGridView1.CurrentRow.Index].Cells[0].Value.ToString());
+            string codigo = (dataGridView1.Rows[dataGridView1.CurrentRow.Index].Cells[0].Value.ToString());
             new CadastroDeYoutubers(codigo).ShowDialog();
         }
 
@@ -64,13 +64,11 @@ namespace ExemploYoutubers
         {
             if (dataGridView1.CurrentRow == null)
             {
-                MessageBox.Show("Selecio ne um dos registros para que seja possível apagar");
+                MessageBox.Show("Selecione um dos registros para que seja possível apagar");
                 return;
             }
 
-            int codigo = Convert.ToInt32(dataGridView1.Rows[dataGridView1.CurrentRow.Index].Cells[0].Value.ToString());
-
-
+            string codigo = (dataGridView1.Rows[dataGridView1.CurrentRow.Index].Cells[0].Value.ToString());
             for (int i = 0; i < Program.youtuber.Count(); i++)
             {
                 Youtubers youtuber = Program.youtuber[i];
@@ -82,6 +80,11 @@ namespace ExemploYoutubers
                     return;
                 }
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Dispose();
         }
 
 

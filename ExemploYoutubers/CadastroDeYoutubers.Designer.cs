@@ -73,13 +73,12 @@
             this.rbSim3 = new System.Windows.Forms.RadioButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -355,6 +354,8 @@
             // 
             // txtNome
             // 
+            this.txtNome.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.txtNome.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.txtNome.Location = new System.Drawing.Point(12, 154);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(218, 20);
@@ -362,6 +363,8 @@
             // 
             // txtSobrenome
             // 
+            this.txtSobrenome.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.txtSobrenome.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.txtSobrenome.Location = new System.Drawing.Point(12, 214);
             this.txtSobrenome.Name = "txtSobrenome";
             this.txtSobrenome.Size = new System.Drawing.Size(303, 20);
@@ -369,6 +372,8 @@
             // 
             // txtApelido
             // 
+            this.txtApelido.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.txtApelido.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.txtApelido.Location = new System.Drawing.Point(12, 273);
             this.txtApelido.Name = "txtApelido";
             this.txtApelido.Size = new System.Drawing.Size(191, 20);
@@ -376,6 +381,8 @@
             // 
             // txtNomeCanal
             // 
+            this.txtNomeCanal.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.txtNomeCanal.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.txtNomeCanal.Location = new System.Drawing.Point(12, 332);
             this.txtNomeCanal.Name = "txtNomeCanal";
             this.txtNomeCanal.Size = new System.Drawing.Size(303, 20);
@@ -383,6 +390,8 @@
             // 
             // txtQuantidadeInscritos
             // 
+            this.txtQuantidadeInscritos.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.txtQuantidadeInscritos.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.txtQuantidadeInscritos.Location = new System.Drawing.Point(12, 399);
             this.txtQuantidadeInscritos.Name = "txtQuantidadeInscritos";
             this.txtQuantidadeInscritos.Size = new System.Drawing.Size(106, 20);
@@ -390,6 +399,8 @@
             // 
             // txtVisualizacoes
             // 
+            this.txtVisualizacoes.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.txtVisualizacoes.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.txtVisualizacoes.Location = new System.Drawing.Point(12, 469);
             this.txtVisualizacoes.Name = "txtVisualizacoes";
             this.txtVisualizacoes.Size = new System.Drawing.Size(106, 20);
@@ -397,6 +408,8 @@
             // 
             // txtQuantidadeLikes
             // 
+            this.txtQuantidadeLikes.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.txtQuantidadeLikes.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.txtQuantidadeLikes.Location = new System.Drawing.Point(12, 540);
             this.txtQuantidadeLikes.Name = "txtQuantidadeLikes";
             this.txtQuantidadeLikes.Size = new System.Drawing.Size(106, 20);
@@ -406,6 +419,8 @@
             // 
             this.txtDescricao.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtDescricao.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.txtDescricao.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.txtDescricao.Location = new System.Drawing.Point(427, 469);
             this.txtDescricao.Multiline = true;
             this.txtDescricao.Name = "txtDescricao";
@@ -416,6 +431,8 @@
             // 
             this.txtRenda.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtRenda.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.txtRenda.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.txtRenda.Location = new System.Drawing.Point(427, 154);
             this.txtRenda.Name = "txtRenda";
             this.txtRenda.Size = new System.Drawing.Size(106, 20);
@@ -425,6 +442,8 @@
             // 
             this.txtLinkCanal.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtLinkCanal.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.txtLinkCanal.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.txtLinkCanal.Location = new System.Drawing.Point(427, 214);
             this.txtLinkCanal.Name = "txtLinkCanal";
             this.txtLinkCanal.Size = new System.Drawing.Size(303, 20);
@@ -434,6 +453,8 @@
             // 
             this.txtNacionalidade.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtNacionalidade.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.txtNacionalidade.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.txtNacionalidade.Location = new System.Drawing.Point(427, 273);
             this.txtNacionalidade.Name = "txtNacionalidade";
             this.txtNacionalidade.Size = new System.Drawing.Size(303, 20);
@@ -443,6 +464,8 @@
             // 
             this.txtQuantidadeVideos.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtQuantidadeVideos.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.txtQuantidadeVideos.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.txtQuantidadeVideos.Location = new System.Drawing.Point(427, 332);
             this.txtQuantidadeVideos.Name = "txtQuantidadeVideos";
             this.txtQuantidadeVideos.Size = new System.Drawing.Size(106, 20);
@@ -452,6 +475,8 @@
             // 
             this.txtCategoria.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtCategoria.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.txtCategoria.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.txtCategoria.Location = new System.Drawing.Point(427, 399);
             this.txtCategoria.Name = "txtCategoria";
             this.txtCategoria.Size = new System.Drawing.Size(266, 20);
@@ -461,6 +486,8 @@
             // 
             this.txtStrikes.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtStrikes.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.txtStrikes.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.txtStrikes.Location = new System.Drawing.Point(427, 577);
             this.txtStrikes.Name = "txtStrikes";
             this.txtStrikes.Size = new System.Drawing.Size(106, 20);
@@ -470,6 +497,8 @@
             // 
             this.txtPlataforma.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtPlataforma.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.txtPlataforma.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.txtPlataforma.Location = new System.Drawing.Point(427, 643);
             this.txtPlataforma.Name = "txtPlataforma";
             this.txtPlataforma.Size = new System.Drawing.Size(239, 20);
@@ -545,7 +574,7 @@
             // 
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(427, 676);
+            this.pictureBox1.Location = new System.Drawing.Point(752, 675);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(54, 57);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -558,24 +587,13 @@
             this.button1.BackColor = System.Drawing.Color.DarkRed;
             this.button1.Font = new System.Drawing.Font("Square721 BT", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(427, 738);
+            this.button1.Location = new System.Drawing.Point(667, 738);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(217, 49);
+            this.button1.Size = new System.Drawing.Size(154, 49);
             this.button1.TabIndex = 64;
             this.button1.Text = "SALVAR";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(651, 686);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(170, 101);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 65;
-            this.pictureBox3.TabStop = false;
             // 
             // groupBox1
             // 
@@ -607,6 +625,20 @@
             this.groupBox3.TabIndex = 68;
             this.groupBox3.TabStop = false;
             // 
+            // button2
+            // 
+            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button2.BackColor = System.Drawing.Color.DarkRed;
+            this.button2.Font = new System.Drawing.Font("Square721 BT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button2.Location = new System.Drawing.Point(501, 738);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(158, 49);
+            this.button2.TabIndex = 69;
+            this.button2.Text = "SAIR";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // CadastroDeYoutubers
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -614,10 +646,11 @@
             this.AutoScroll = true;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(833, 802);
+            this.ControlBox = false;
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txtPlataforma);
@@ -665,7 +698,6 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -723,10 +755,10 @@
         private System.Windows.Forms.RadioButton rbSim3;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.Button button2;
     }
 }
 

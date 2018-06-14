@@ -8,8 +8,8 @@ namespace Modelo
 {
     public class Youtubers
     {
-        private static int UltimoCodigo;
-        private int Codigo;
+        
+        private string Codigo;
         private string Nome;
         private string Sobrenome;
         private string Apelido;
@@ -31,14 +31,12 @@ namespace Modelo
         
 
 
-        public Youtubers()
-        {
-            Codigo = ++UltimoCodigo;
-        }
+        
 
-        public int GetCodigo()
+        public string GetCodigo()
         {
             return Codigo;
+            
         }
 
         
@@ -372,7 +370,7 @@ namespace Modelo
                 throw new Exception("Impossível você nunca ter feito merda neste site, por favor, digite novamente");
             }
 
-            if (strike > 10000)
+            if (strike > 3)
             {
                 throw new Exception("Como você ainda existe no youtube? Impossível receber tantos strikes, digite novamente");
             }
