@@ -14,14 +14,14 @@ namespace ExemploYoutubers
     public partial class CadastroDeYoutubers : Form
     {
         private Youtubers youtuber;
-        private string codigo;
+        private int codigo;
         public CadastroDeYoutubers()
         {
             InitializeComponent();
             this.youtuber = youtuber;
         }
 
-        public CadastroDeYoutubers(string codigo)
+        public CadastroDeYoutubers(int codigo)
         {
             InitializeComponent();
             this.codigo = codigo;

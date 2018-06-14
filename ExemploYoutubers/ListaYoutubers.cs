@@ -33,7 +33,7 @@ namespace ExemploYoutubers
                 dataGridView1.Rows.Add(new Object[]{
 
 
-
+                    youtuber.GetCodigo(),
                     youtuber.GetNome(),
                     youtuber.GetNomeCanal(),
                     youtuber.GetApelido(),
@@ -51,7 +51,7 @@ namespace ExemploYoutubers
                 return;
             }
 
-            string codigo = (dataGridView1.Rows[dataGridView1.CurrentRow.Index].Cells[0].Value.ToString());
+            int codigo = Convert.ToInt32(dataGridView1.Rows[dataGridView1.CurrentRow.Index].Cells[0].Value.ToString());
             new CadastroDeYoutubers(codigo).ShowDialog();
         }
 
@@ -68,7 +68,8 @@ namespace ExemploYoutubers
                 return;
             }
 
-            string codigo = (dataGridView1.Rows[dataGridView1.CurrentRow.Index].Cells[0].Value.ToString());
+            int codigo = Convert.ToInt32(dataGridView1.Rows[dataGridView1.CurrentRow.Index].Cells[0].Value.ToString());
+            
             for (int i = 0; i < Program.youtuber.Count(); i++)
             {
                 Youtubers youtuber = Program.youtuber[i];

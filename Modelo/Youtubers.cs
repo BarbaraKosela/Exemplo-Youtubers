@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Modelo
 {
-    public class Youtubers
+    public class  Youtubers
     {
         
-        private string Codigo;
+        private int Codigo;
         private string Nome;
         private string Sobrenome;
         private string Apelido;
@@ -33,7 +33,7 @@ namespace Modelo
 
         
 
-        public string GetCodigo()
+        public int GetCodigo()
         {
             return Codigo;
             
